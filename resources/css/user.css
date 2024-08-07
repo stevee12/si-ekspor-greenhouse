@@ -1,0 +1,213 @@
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f7f7;
+}
+
+.profile-section,
+.produk-section {
+    margin-top: 20px;
+    color: #333333;
+}
+
+.profile-section h2,
+.produk-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.profile-section p,
+.produk-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.profile-section ul,
+.produk-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333333;
+}
+
+.profile-section ul li,
+.produk-section ul li {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.profile-section img,
+.produk-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.profile-section .cta,
+.produk-section .cta {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.produk-section .card {
+    margin-bottom: 20px;
+}
+
+.produk-section .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.produk-section .card-body {
+    text-align: center;
+}
+
+.carousel-inner img {
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.paragraf,
+h2 {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+}
+
+.card-text span {
+    width: 50px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    transition: transform 0.3s;
+}
+
+.modal.show .modal-content {
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-gradient {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #edf1d6;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 10px;
+    /* Kurangi padding */
+    text-align: center;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #adb5bd;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+    /* Kurangi margin */
+}
+
+.footer-links a {
+    margin: 0 5px;
+    /* Kurangi margin */
+}
+
+.social-icons a {
+    margin: 0 5px;
+    /* Kurangi margin */
+    font-size: 18px;
+    /* Kurangi ukuran font */
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #adb5bd;
+    /* Default hover color */
+}
+
+.social-icons a:hover .fa-facebook-f {
+    color: #3b5998;
+    /* Facebook color */
+}
+
+.social-icons a:hover .fa-twitter {
+    color: #1da1f2;
+    /* Twitter color */
+}
+
+.social-icons a:hover .fa-instagram {
+    color: #e1306c;
+    /* Instagram color */
+}
+
+.social-icons a:hover .fa-linkedin-in {
+    color: #0077b5;
+    /* LinkedIn color */
+}
+
+.footer-section {
+    margin-bottom: 5px;
+    /* Kurangi margin */
+}
